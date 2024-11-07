@@ -11,15 +11,12 @@ dic = {
     "CUZ": "because",
     "TY": "thank-you",
     "YW": "you’re welcome",
-    "TTYL": "talk to you later"
+    "TTYL": "talk to you later",
     }
 
 while True:
-    text = sys.stdin.readline().strip()
-    if text in dic : 
-      print(dic[text])
-      if text == "TTYL": 
-        break
-    else: 
-      print(text)
+    text = input().strip()
+    if text in dic : print(dic[text])
+    else: print(text)
+    if text == "TTYL": break
   
