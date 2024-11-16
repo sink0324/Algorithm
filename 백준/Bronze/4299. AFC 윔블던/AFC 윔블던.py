@@ -3,6 +3,7 @@ nums = list(map(int, input().split()))
 hap = nums[0]
 diff = nums[1]
 
+#블로그 참고함
 if (hap < diff):
     print(-1)
 else:
