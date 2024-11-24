@@ -6,4 +6,4 @@ for i in range(2, k):
         break
 else:
     print("GOOD")
-    
+#게시판 참고함
