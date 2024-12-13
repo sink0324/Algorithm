@@ -16,3 +16,5 @@ avg = sum / n
 
 if avg - int(avg) >= 0.5: print(math.ceil(avg))
 else: print(math.floor(avg))
+
+#소수점 계산하는 부분이 문제가 이해가 안 돼서 블로그를 찾아봄
