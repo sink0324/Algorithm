@@ -28,3 +28,7 @@ while True:
     except:
         break
 
+
+#블로그와 게시판을 참고함
+#입력을 끊임없이 받아야 하는 경우, try-except문을 이용하여 예외 발생 시 break 하도록 함
+#너무 어려웠음ㅜ.ㅜ
