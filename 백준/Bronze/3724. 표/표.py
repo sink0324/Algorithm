@@ -13,3 +13,7 @@ for _ in range(n):
     else:
         multi_idx = [idx for idx, value in enumerate(li) if value == big]
         print(max(multi_idx) + 1)
+
+#enumerate를 사용하면 복수 인덱스를 뽑는 것이 가능함
+        #enumerate() : 리스트의 값과 인덱스를 함께 출력해주는 내장 함수임!
+#그러나 반복문을 통해 직접 접근하는 것도 가능함!
