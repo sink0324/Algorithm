@@ -13,7 +13,7 @@ for i in range(n):
     A = len(sentence)
     R = A - sentence.count('#')
     res = round(R/A * 100, 1)
-    if str(res).split('.')[-1] == '0':
+    if str(res)[-1] == '0':
         res = int(res)
 
     print(f"Efficiency ratio is {res}%.")
