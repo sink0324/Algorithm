@@ -26,3 +26,4 @@ string.extend(reversed(string2))
 print("".join(string))
 
 #블로그 봤음 - 자료구조니까 큐와 스택을 적절히 잘 사용할것!
+#입력을 stdin으로 받으니까 바로 시간초과 해결됨. stdin을 자주 사용할 것.
