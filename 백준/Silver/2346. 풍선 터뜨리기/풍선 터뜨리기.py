@@ -17,3 +17,6 @@ while q:
         q.rotate(-paper)
 
 print(' '.join(map(str, ans)))
+
+#블로그 참고함 -> deque 구조 이해
+#rotate는 deque와 함께 이용했을 때 효용이 높아진다.
