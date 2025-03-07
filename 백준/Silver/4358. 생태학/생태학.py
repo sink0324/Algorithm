@@ -20,3 +20,5 @@ trees.sort()
 for i in trees:
     pct = (word[i] / n) * 100
     print(f"{i} {pct:.4f}")
+
+#소수점 ~자리인 경우 format 사용하기
