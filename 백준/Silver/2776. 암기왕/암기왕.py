@@ -13,3 +13,6 @@ for _ in range(T):
             print(1)
         else:
             print(0)
+
+#set은 list보다 탐색속도가 더 빠르다. 그러므로 set으로 입력받을 수 있다면 set으로 입력받자.
+#set의 수행시간은 O(1)
