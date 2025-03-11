@@ -20,3 +20,6 @@ for _ in range(N):
         melody[string].append(fret)
         cnt += 1
 print(cnt)
+
+#블로그 참고함
+#스택을 잘 활용하기 -> 초기화는 리스트와 동일, pop의 차이 정도
